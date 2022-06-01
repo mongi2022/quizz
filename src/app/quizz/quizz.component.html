@@ -1,0 +1,24 @@
+<div class="container">
+    
+    
+    <h1>Quizz Angular</h1>
+<!-- <ul class="list-group"  *ngFor="let res of data; let index = index;" >{{res[index]}}        <span>{{ index }}</span>
+
+    <li  class="list-group-item"></li>
+  
+     </ul> -->
+
+     <ul *ngFor="let book of quizData;let indexOfelement=index;">
+      <li >
+           {{book.question}} 
+      </li>
+      <li>{{book.a}}</li>
+      <li>{{book.b}}</li>
+      <li>{{book.c}}</li>
+      <li>{{book.d}}</li>
+
+  </ul>
+  
+
+</div>
+
